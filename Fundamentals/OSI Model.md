@@ -10,8 +10,8 @@ Layer | Name | Description
 5 | Session | Controls conversations between computers
 4 | Transport | Manages delivery and error checking of packets 
 3 | Network | Responsible for packet forwarding
-2 | Data Link |
-1 (Bottom) | Physical |
+2 | Data Link | Transfers data between nodes on same network
+1 (Bottom) | Physical | Physical equipment in data transfer
 
 ## Application
 Closest layer to end user.
@@ -46,7 +46,19 @@ Example protocols: TCP (Transmission Control Protocol), UDP (User Datagram Proto
 ## Network
 Selects the best logical path for data transfer between nodes.
 
-## Data Link
+Finds destination using logical adresses (e.g IP). 
 
+## Data Link
+Takes the packets from the network layer and breaks them up into smaller pieces (frames).
+
+Frames synchronise the information to remove transmission errors.
+
+When the receiver receives a frame, they send an acknowledgement frame back.
 
 ## Physical
+Examples: cables and switches
+
+Data will also be converted into a bit stream (binary string).
+
+Both the physical layers on each end must agreee on a signal convention (e.g Half Duplex, Full Duplex). This ensures that when a 1 or a 0 is sent, it is still receieved as a 1 or 0.
+
