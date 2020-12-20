@@ -20,9 +20,12 @@ For example 10 attempts in 10 mins would be low priority as it is likely a user 
 Collects data  Find queries  Add knowledge (i.e date/time stamp)   Identify issues  Visualise reports 
 
 Uses 3 main components: Indexers, forwarders and search heads:
-    Forwarder: Used for data forwarding
-    Indexer: Used for parsing and indexing data
-    Search head: GUI using for searching, analysing and reporting
+
+        Forwarder: Used for data forwarding
+
+        Indexer: Used for parsing and indexing data
+
+        Search head: GUI using for searching, analysing and reporting
 
 ### LogRhythm
 
