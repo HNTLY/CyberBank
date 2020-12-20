@@ -12,6 +12,20 @@ Each threat is flagged with a priority to signify which events are more likely t
 
 For example 10 attempts in 10 mins would be low priority as it is likely a user who's forgotten their password. However, 100 failed attempts in 5 minutes is likely to be Brute Force attack. and would be marked as high priority.
 
+6 main attributes of a SIEM system:
+
+        Retention: Store data for long periods of time to create more complete data sets
+        
+        Dashboards: Used to analyse and visualise data to identify patterns or abnormal activity
+        
+        Correlation: Sorts similar packets to turn this into useful information
+        
+        Alerting: Response triggers to highlight issues and alert users of potential security problems
+        
+        Data Aggregation: Data gathered from a variety of sources e.g Servers, Databases, Emails etc
+        
+        Compliance: Data collection must comply with company and legal policies
+
 ## Example Tools
 ### Splunk
 
