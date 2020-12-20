@@ -26,6 +26,15 @@ Uses 3 main components: Indexers, forwarders and search heads:
         Indexer: Used for parsing and indexing data
 
         Search head: GUI using for searching, analysing and reporting
+        
+3 main roles: Admin, Power User:
+
+        Admin: Has most permissions  Install apps, create knowledge objects for all users 
+        
+        Power: Create and share knowledge objects for users of an app and do real-time searches
+        
+        User: Can only see own knowledge and knowledge shared with them
+
 
 ### LogRhythm
 
