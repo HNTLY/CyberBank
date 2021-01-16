@@ -18,3 +18,17 @@ AD provides multiple services:
     - Protects sensitive data with rights management and access policy enforcement.
     - Controls access to information such as: documents, emails and web pages
     
+AD will categorise objects by name and attribute e.g users name along with associated information such as SSH keys or passwords etc
+
+## Abbreviations and Definitions
+
+Keyword | Definition
+--- | ---
+AD | Active Directory
+Containers | Similar to OU's but GPO's cannot be applied
+Domain | Group of objects e.g users
+Forest | Group of multiple trees
+GPO | Group Policy Objects
+LDAP | Lightweight Directory Access Protocol
+OU | Organisational Unit. Organises users, groups and devices and ensures each object is unique e.g no 2 users with same username
+Tree | One or more domains grouped together. Uses a trust hierachy e.g first domain trusts third domain without needing explicit trust
