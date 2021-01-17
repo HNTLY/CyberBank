@@ -51,7 +51,14 @@ Uses 3 main components: Indexers, forwarders and search heads:
 
 
 ### LogRhythm
-
+Main features include:
+    - Real-Time Monitoring
+    - Automated Responses
+    - Threat Lifecycle Management
+    - Log Management
+    - Network and Endpoint management
+    - Threat Detection through data analysis
+                
 ### IBM QRadar
 
 ### AlienVault
