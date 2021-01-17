@@ -1,5 +1,5 @@
 # Security Information and Event Management
-## What does it do?
+## What do they do?
 Software to analyse activity across a network.
 It collects data from network devices (e.g Servers) and analyses to discover trends, detect threats and create alerts.
 
