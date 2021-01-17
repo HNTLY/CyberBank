@@ -23,6 +23,6 @@ Run a traceroute command to Google's publicy available DNS server
 
 ![Traceroute](https://github.com/HNTLY/CyberBank/blob/master/Images/traceroute.JPG)
 
-This UDP packet includes the following:
+This UDP (Linux, ICMP on Windows) packet includes the following:
     - Source address (Our IP)
     - Destination address (8.8.8.8)
