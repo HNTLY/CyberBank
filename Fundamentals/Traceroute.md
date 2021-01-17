@@ -21,7 +21,7 @@ If a node receives a packet with TTL=1, then it will discard the packet and retu
 Run a traceroute command to Google's publicy available DNS server
 `traceroute -n 8.8.8.8`
 
-![/CyberBank/Images/Traceroute.jpg](Traceroute)
+![/CyberBank/Images/traceroute.JPG](Traceroute)
 
 This UDP packet includes the following:
     - Source address (Our IP)
