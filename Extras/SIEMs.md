@@ -43,7 +43,7 @@ Uses 3 main components: Indexers, forwarders and search heads:
         
 3 main roles: Admin, Power User:
 
-        Admin: Has most permissions  Install apps, create knowledge objects for all users 
+        Admin: Has most permissions: Install apps, create knowledge objects for all users 
         
         Power: Create and share knowledge objects for users of an app and do real-time searches
         
